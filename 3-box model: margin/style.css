@@ -1,0 +1,42 @@
+/*margin adalah area transparant di sekitar kotak*/
+
+/*overlapping margin adalah ketika menggabungkan 2 buah margin misalnya kiri dan kanan atau atas dan bawah*/
+/*overlapping margin yang vertikal mengambil margin yang terbesar*/
+/*overlapping margin yang horizontal menambahkan margin kiri dan kanannya berlaku untuk yang inline dan inline block*/
+
+/*negatif margin akan membuat kotaknya berlawan arah*/
+
+
+/*margin auto harus memiliki kiri dan kanan*/
+/*margin auto akan membuat kotak menjadi ketengah*/
+
+
+/*shorthand = cara menyingkat penulisan margin*/
+/*margin: 50px // akan membuat kiri,kanan,atas,bawah 50px */
+/*margin: 50px 100px // akan membuat atas bawah 50px dan kiri kanan 100px*/
+/*margin: 30px 50px 40px // akan membuat atas 30px. kiri dan kanan 50px. bawah 40px */
+/*margin: 10px 20px 30px 40px // atas kanan bawah kiri = searah jarum jam*/
+
+
+/*div{
+	display: inline-block;
+}*/
+
+.satu{
+	width: 200px;
+	height: 200px;
+	background-color: lightgreen;
+	margin: 50px auto 50px;
+}
+
+.dua{
+	width: 100px;
+	height: 100px;
+	background-color: lightblue;
+}
+
+.tiga{
+	width: 50px;
+	height: 50px;
+	background-color: violet;
+}
